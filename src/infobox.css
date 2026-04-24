@@ -1,0 +1,39 @@
+/* .infobox {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  transition: 0.3s;
+}
+.infobox:hover{
+    transform: scale(1.05);
+} */
+
+.infobox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto;
+  padding: 20px;
+
+  /* Gradient background */
+  background: linear-gradient(135deg, #007bff, #ff7a18);
+
+  /* Modern UI touches */
+  border-radius: 16px;
+  color: #fff;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+
+  /* Smooth animation */
+  transition: all 0.3s ease-in-out;
+}
+
+.infobox:hover {
+  transform: translateY(-8px) scale(1.03);
+
+  /* Stronger shadow on hover */
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25);
+
+  /* Slight gradient shift */
+  background: linear-gradient(135deg, #0066d6, #ff8c42);
+}

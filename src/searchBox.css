@@ -1,0 +1,21 @@
+input {
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  margin-right: 10px;
+  outline: none;
+}
+
+button {
+  padding: 10px 15px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  background: white;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
